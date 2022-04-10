@@ -8,7 +8,7 @@ $resultado = $conexion->prepare($consulta);
 $resultado->execute();
 $data=$resultado->fetchAll(PDO::FETCH_ASSOC);
 ?>
-
+//agregue otro cambio
 <!doctype html>
 <html lang="en">
   <head>
